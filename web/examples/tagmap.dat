@@ -1,0 +1,19 @@
+#Default data mappable fields
+#
+#  Do not move the first line below from its position.  The first line is the
+#  default field type for fields missing TYPE=.
+
+input,,text,fill-in,web/support/webinput.p
+input,,checkbox,toggle-box,web/support/webtog.p
+input,,hidden,fill-in,web/support/webinput.p
+input,,password,fill-in,web/support/webinput.p
+input,,radio,radio-set,web/support/webradio.p
+select,/select,,selection-list,web/support/weblist.p
+textarea,/textarea,,editor,web/support/webedit.p
+
+#Custom Tag that can be used to support HTML Tables and 3rd Party controls
+!--WSTAG,,,fill-in,web/support/tagrun.p
+
+#Custom Tag that can be used to notify an application to output messages
+#messages that have queued up using the queue-message function
+!--WSMSG,,,fill-in,web/support/webmsg.p
